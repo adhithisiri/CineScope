@@ -1,16 +1,37 @@
-# React + Vite
+# CineScope 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie discovery web application built using React and Vite, integrated with The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## Features
+- Browse popular movies
+- Search for movies
+- View movie posters
+- View movie ratings and release dates
+- Responsive interface for desktop and mobile browsers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- CSS
+- TMDB API
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository.
+2. Install dependencies:
 
-## Expanding the ESLint configuration
+   `npm install`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Create a `.env` file in the project root.
+4. Add your TMDB API key:
+
+   `VITE_TMDB_API_KEY=your_api_key_here`
+
+5. Start the development server:
+
+   `npm run dev`
+
+## API Attribution
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
